@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "ssnreduce: supersonic-nozzle nucleation data reduction (CNT/MKNT) in Python"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - given-names: Minh Quan
+    family-names: Tran
+    affiliation: "Department of Mechanical Engineering, The University of Melbourne"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO: add ORCID
+license: MIT
+repository-code: "https://github.com/USER/ssnreduce"   # TODO: set on publish
+version: "0.1.0"
+keywords:
+  - nucleation
+  - classical nucleation theory
+  - mean-field kinetic nucleation theory
+  - supersonic nozzle
+  - condensation
+  - carbon dioxide
+abstract: >
+  A Python library for reducing supersonic-nozzle (SSN) condensation
+  experiments and computing nucleation rates. Implements a faithful port of the
+  Wyslouzil-style three-stage reduction (isentropic inversion, diabatic coupled
+  ODE for the condensate mass fraction, and droplet growth) for a carrier +
+  dilute condensable gas mixture, together with classical nucleation theory and
+  its corrections (Courtney, Girshick-Chiu, Wolk-Strey, Hale) and mean-field
+  kinetic nucleation theory (MKNT, Kalikmanov 2006).
+  # doi: "10.5281/zenodo.XXXXXXX"   # TODO: add Zenodo DOI on first release
