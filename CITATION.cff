@@ -8,7 +8,7 @@ authors:
     affiliation: "Department of Mechanical Engineering, The University of Melbourne"
     # orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO: add ORCID
 license: MIT
-repository-code: "https://github.com/USER/ssnreduce"   # TODO: set on publish
+repository-code: "https://github.com/MQuantran/ssnreduce"
 version: "0.1.0"
 keywords:
   - nucleation

@@ -8,8 +8,29 @@ version = "0.1.0"
 description = "Faithful Python port of Joel Mortimer's supersonic-nozzle nucleation data-reduction pipeline (Ar+CO2 mixture; isentropic -> diabatic ODE -> nucleation -> growth)."
 readme = "README.md"
 requires-python = ">=3.10"
+license = { text = "MIT" }
 authors = [
-    { name = "Minh Quan Tran" },
+    { name = "Minh Quan Tran", email = "quantm22@gmail.com" },
+]
+keywords = [
+    "nucleation",
+    "classical nucleation theory",
+    "MKNT",
+    "supersonic nozzle",
+    "condensation",
+    "carbon dioxide",
+    "thermodynamics",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Chemistry",
 ]
 dependencies = [
     "numpy>=1.24",
@@ -18,6 +39,11 @@ dependencies = [
     "matplotlib>=3.7",
     "CoolProp>=6.6",
 ]
+
+[project.urls]
+Homepage = "https://github.com/MQuantran/ssnreduce"
+Repository = "https://github.com/MQuantran/ssnreduce"
+"Bug Tracker" = "https://github.com/MQuantran/ssnreduce/issues"
 
 [project.optional-dependencies]
 dev = ["pytest>=7.4", "pytest-cov", "ruff", "mypy"]
