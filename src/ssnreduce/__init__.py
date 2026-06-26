@@ -44,7 +44,7 @@ from .growth import GrowthPoint, droplet_growth_rate, grow_droplets
 from .cases import Case, CaseRegistry, REGISTRY
 from .pipeline import ReductionResult, reduce_run, describe_solvers
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 __all__ = [
     "constants", "plots",

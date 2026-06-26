@@ -9,7 +9,7 @@ authors:
     # orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO: add ORCID
 license: MIT
 repository-code: "https://github.com/MQuantran/ssnreduce"
-version: "0.1.0"
+version: "0.1.1"
 keywords:
   - nucleation
   - classical nucleation theory

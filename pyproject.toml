@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "ssnreduce"
-version = "0.1.0"
+version = "0.1.1"
 description = "Supersonic-nozzle condensation data-reduction pipeline: isentropic inversion, diabatic ODE (Wyslouzil 2000), CNT/MKNT nucleation rates (Kalikmanov 2006; Bhabhe 2012), Gyarmathy droplet growth."
 readme = "README.md"
 requires-python = ">=3.10"
