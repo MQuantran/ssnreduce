@@ -18,11 +18,12 @@ keywords:
   - condensation
   - carbon dioxide
 abstract: >
-  A Python library for reducing supersonic-nozzle (SSN) condensation
-  experiments and computing nucleation rates. Implements a faithful port of the
-  Wyslouzil-style three-stage reduction (isentropic inversion, diabatic coupled
-  ODE for the condensate mass fraction, and droplet growth) for a carrier +
-  dilute condensable gas mixture, together with classical nucleation theory and
-  its corrections (Courtney, Girshick-Chiu, Wolk-Strey, Hale) and mean-field
-  kinetic nucleation theory (MKNT, Kalikmanov 2006).
-  # doi: "10.5281/zenodo.XXXXXXX"   # TODO: add Zenodo DOI on first release
+  A Python library for reducing supersonic-nozzle (SSN) condensation experiments
+  and computing nucleation rates. Implements the Wyslouzil (2000) four-stage
+  pipeline: isentropic inversion of the centreline pressure profile, a diabatic
+  coupled ODE for the condensed mass fraction g(z), classical nucleation theory
+  and its corrections (Courtney, Girshick–Chiu, Wölk–Strey, Hale), and
+  mean-field kinetic nucleation theory (MKNT; Kalikmanov 2006; Bhabhe 2012).
+  Droplet growth follows the Gyarmathy (1963) model. CoolProp is used for all
+  real-gas thermodynamics; the library is validated for cryogenic CO₂/Ar and
+  CO₂/N₂ conditions below the CO₂ triple point.
